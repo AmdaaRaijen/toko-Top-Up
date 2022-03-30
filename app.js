@@ -53,7 +53,7 @@ document.addEventListener('click', async function (e) {
     const modalBody = document.querySelector('.pesanan');
     modalBody.innerHTML = modalContent;
 
-    const encode = `Pesan Diamond: ${jumlahPesanan}\nID: ${userId}\nID server: ${idServer}`;
+    const encode = `Pesan Diamond: ${jumlahPesanan}\nID: ${userId}\nID server: ${idServer}\nNICKNAME: ${nickname}`;
 
     const Chat = document.querySelector('.modal-footer');
     const chatText = `<a href="https://wa.me/6285156189563?text=${encodeURIComponent(encode.trim())}"><button type="button" class="btn btn-success" onclick="return checkIdentityIsNotEmpty()">Chat Penjual</button></a>`;
