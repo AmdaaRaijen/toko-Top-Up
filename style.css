@@ -5,8 +5,8 @@ body {
 body > .miya {
   position: fixed;
   top: 14rem;
-  left: 60rem;
-  opacity: 0.2;
+  left: 50rem;
+  opacity: 0.5;
   width: 800px;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #5b4a0c);
@@ -15,12 +15,58 @@ body > .miya {
 body > .cou {
   position: fixed;
   top: 12rem;
-  opacity: 0.2;
+  left: -9rem;
+  opacity: 0.5;
   width: 800px;
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #5b4a0c);
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
+}
+
+.navbar > .container-fluid > .d-flex > input {
+  text-align: center;
+  width: 10rem;
+  border: 0.1rem;
+  border-style: solid;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 1) -7px 7px;
+  font-family: 'Roboto Condensed', sans-serif;
+  transition: 100ms ease-in;
+}
+
+.navbar > .container-fluid > .d-flex > button {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 5rem;
+  border: 0.1rem;
+  border-style: solid;
+  background-color: #0037ff;
+  box-shadow: rgba(0, 0, 0, 1) -7px 7px;
+  color: black;
+  transition: 100ms ease-in;
+}
+
+.navbar > .container-fluid > .d-flex > .btn-outline-success:active {
+  color: black;
+  border-style: solid !important;
+  /* box-shadow: rgba(0, 0, 0, 1) -4px 4px; */
+  box-shadow: none;
+  transform: translate(-7px, 7px) !important;
+}
+.navbar > .container-fluid > .d-flex > .form-control.me-2:hover {
+  color: #ff1e00 !important;
+}
+.navbar > .container-fluid > .d-flex > .form-control.me-2:focus {
+  color: black;
+  border-style: solid !important;
+  /* box-shadow: rgba(0, 0, 0, 1) -4px 4px; */
+  box-shadow: none;
+  transform: translate(-7px, 7px) !important;
+}
+.navbar > .container-fluid > .d-flex > .btn-outline-success:hover {
+  color: rgb(0, 0, 0);
+  border-style: solid !important;
 }
 
 .container > .row > .col > .card {
@@ -78,6 +124,22 @@ body > .cou {
 .container > .row > .col > .jenis > h2 {
   font-size: 20px;
   margin-top: 5px;
+}
+
+.container > .row > .col > .input-Id > input {
+  /* display: block; */
+  position: relative;
+  top: 2rem;
+  width: 6rem;
+  text-align: center;
+}
+.container > .row > .col > .input-Id > button {
+  /* display: block; */
+  position: relative;
+  top: 2rem;
+  /* left: 60rem; */ /* left: -5rem; */
+  width: 4rem;
+  text-align: center;
 }
 
 .container > .row > .col > .jenis:hover {
