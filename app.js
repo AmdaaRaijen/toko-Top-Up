@@ -40,6 +40,7 @@ function getPesanan(id) {
               <p>Pesan Diamond: ${id}</p>
               <p>ID: ${userId}</p>
               <p>ID server: ${idServer}</p>
+              <p>NICK NAME: ${nickname}</p>
           </div>
           <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
