@@ -1,0 +1,204 @@
+body {
+  background-color: #fcfcfc !important;
+}
+
+body > .miya {
+  position: fixed;
+  top: 14rem;
+  left: 60rem;
+  opacity: 0.2;
+  width: 800px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #5b4a0c);
+}
+
+body > .cou {
+  position: fixed;
+  top: 12rem;
+  opacity: 0.2;
+  width: 800px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #5b4a0c);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.container > .row > .col > .card {
+  display: block;
+  position: relative;
+  top: 2rem;
+  border-radius: 0.2rem;
+  /* left: -5rem; */
+  font-weight: bold;
+  width: 11rem;
+  height: 4rem;
+  text-align: center;
+  border: 0.1rem;
+  border-style: solid;
+  background-color: #ff1e00;
+  box-shadow: rgba(0, 0, 0, 1) -7px 7px;
+  transition: 100ms ease-in;
+}
+.container > .row > .col > .card > .name > h3 {
+  position: relative;
+  /* top: -0.3rem; */
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  /* margin-bottom: 10000px !important; */
+}
+
+.container > .row > .col > .card > h3 {
+  position: absolute;
+}
+.container > .row > .col > .card:hover {
+  /* border: 0.2rem; */
+  border-style: solid;
+  /* box-shadow: rgba(0, 0, 0, 1) -4px 4px; */
+  box-shadow: none;
+  transform: translate(-7px, 7px);
+}
+
+.container > .row > .col > .jenis {
+  font-family: 'Roboto Condensed', sans-serif;
+  display: block;
+  position: relative;
+  border: 0.1rem;
+  top: 5rem;
+  border-style: solid;
+  width: 12rem;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(0, 255, 81);
+  box-shadow: rgba(0, 0, 0, 1) -4px 4px;
+  transition: 150ms ease-in;
+}
+.container > .row > .col > .jenis > h2 {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.container > .row > .col > .jenis:hover {
+  display: block;
+  box-shadow: none;
+  transform: translate(-6px, 6px);
+}
+
+.container > .list-harga > .col-md-4.my-3.coll-harga {
+  /* margin: 5rem !important; */
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  position: relative;
+  border-radius: 0.5rem;
+  border: 0.1rem;
+  top: 6rem;
+  /* left: 5  rem; */
+  border-style: solid;
+  width: 12rem;
+  height: 12rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #ffd500;
+  box-shadow: rgba(0, 0, 0, 1) -8px 8px;
+  transition: 150ms ease-out;
+}
+
+.container > .list-harga > .col-md-4.my-3.coll-harga:hover {
+  display: block;
+  box-shadow: none;
+  transform: translate(-8px, 8px);
+}
+
+.container > .row > .coll-harga > .harga-content {
+  border: none;
+  background-color: #ffd500;
+  margin-top: 10px;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10rem;
+  height: 10rem;
+  font-size: 15px;
+}
+.container > .list-harga > .col-md-1.my-1.coll-harga > .harga-content > .card-body {
+  padding: 1rem;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  height: 8.6rem;
+  background-color: white !important;
+}
+
+.container > .list-harga > .col-md-1.my-1.coll-harga > .harga-content > .card-body > .btn {
+  border: 3px;
+  border-style: solid;
+  color: #2cd997 !important;
+  background-color: #2cd997 !important;
+  width: 100% !important;
+  height: 100%;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+}
+
+.modal > .modal-dialog > .modal-content {
+  background-color: #ffc700;
+  border: black;
+  border: 3px;
+  border-style: solid;
+  text-decoration: none;
+  border-radius: none;
+}
+
+.modal > .modal-dialog > .modal-content > .modal-header {
+  border: none;
+  font-family: 'Noto Sans', sans-serif;
+}
+.modal > .modal-dialog > .modal-content > .modal-body {
+  /* display: block;
+  position: relative;
+  left: 1rem;
+  border: black 4px;
+  border-style: solid;
+  height: auto;
+  width: 20rem; */
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #ffffff;
+  color: black;
+  /* box-shadow: rgba(0, 0, 0, 1) -4px 4px; */
+}
+.modal > .modal-dialog > .modal-content > .modal-footer {
+  border: none;
+}
+
+.modal > .modal-dialog > .modal-content > .modal-footer > button {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: rgb(17, 0, 255) !important;
+  border: black;
+  border-style: solid;
+  box-shadow: rgba(0, 0, 0, 1) -3px 3px;
+  transition: 200ms ease-in;
+}
+.modal > .modal-dialog > .modal-content > .modal-footer > button:hover {
+  display: block;
+  box-shadow: none;
+  transform: translate(-6px, 6px);
+}
+.modal > .modal-dialog > .modal-content > .modal-footer > a {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: rgb(17, 0, 255) !important;
+  border: black;
+  border-style: solid;
+  box-shadow: rgba(0, 0, 0, 1) -3px 3px;
+  transition: 200ms ease-out;
+}
+
+.modal > .modal-dialog > .modal-content > .modal-footer > a:hover {
+  display: block;
+  box-shadow: none;
+  transform: translate(-6px, 6px);
+}

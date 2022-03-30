@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "jumlah": "65",
+    "harga": "Rp.17.000",
+    "diskon": "Rp.19.000"
+  },
+  {
+    "id": "2",
+    "jumlah": "129",
+    "harga": "Rp.32.000",
+    "diskon": "Rp.33.000"
+  },
+  {
+    "id": "3",
+    "jumlah": "194",
+    "harga": "Rp.46.000",
+    "diskon": "Rp.48.000"
+  },
+  {
+    "id": "4",
+    "jumlah": "259",
+    "harga": "Rp.62.000",
+    "diskon": "Rp.64.000"
+  },
+  {
+    "id": "5",
+    "jumlah": "323",
+    "harga": "Rp.77.000",
+    "diskon": "Rp.80.000"
+  },
+  {
+    "id": "6",
+    "jumlah": "453",
+    "harga": "Rp.105.000",
+    "diskon": "Rp.107.000"
+  },
+  {
+    "id": "7",
+    "jumlah": "530",
+    "harga": "Rp.122.000",
+    "diskon": "Rp.129.000"
+  },
+  {
+    "id": "9",
+    "jumlah": "659",
+    "harga": "Rp.150.000",
+    "diskon": "Rp.155.000"
+  },
+  {
+    "id": "10",
+    "jumlah": "724",
+    "harga": "Rp.168.000",
+    "diskon": "Rp.175.000"
+  },
+  {
+    "id": "11",
+    "jumlah": "853",
+    "harga": "Rp.197.000",
+    "diskon": "Rp.202.000"
+  },
+  {
+    "id": "12",
+    "jumlah": "1060",
+    "harga": "Rp.245.000",
+    "diskon": "Rp.255.000"
+  },
+  {
+    "id": "13",
+    "jumlah": "1647",
+    "harga": "Rp.365.000",
+    "diskon": "Rp.390.000"
+  },
+  {
+    "id": "14",
+    "jumlah": "2767",
+    "harga": "Rp.600.000",
+    "diskon": "Rp.640.000"
+  }
+]
