@@ -44,7 +44,7 @@ function getPesanan(id) {
               <p>NICK NAME: ${nickname}</p>
           </div>
           <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="return checkIdentityIsNotEmpty()">Close</button>
           </div>`;
 }
 

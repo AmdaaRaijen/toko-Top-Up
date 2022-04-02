@@ -118,7 +118,7 @@ body {
   font-family: 'PT Serif', serif;
   display: block;
   position: relative;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   border: 0.1rem;
   top: 10rem;
   margin-top: 10px !important;
@@ -127,21 +127,47 @@ body {
   border-style: solid;
   background-color: #000000;
   /* width: 5rem; */
-  height: 20rem;
+  height: 17rem;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   /* font-size: 1rem; */
   font-weight: bold;
-  background-color: #ffd500;
+  background-color: #23272b;
   box-shadow: rgba(0, 0, 0, 1) -8px 8px;
   transition: 150ms ease-out;
 }
 
+.container > .row > .col > .pilihan-game :active {
+  /* color: black; */
+  border: 0.1rem;
+  border-style: solid !important;
+  /* box-shadow: rgba(0, 0, 0, 1) -4px 4px; */
+  box-shadow: none;
+  transform: translate(-7px, 7px) !important;
+}
+
+.container > .row > .col > .pilihan-game > .card-body {
+  border: none;
+}
+
+.container > .row > .col > .pilihan-game > .card-body > h2 {
+  font-size: 26px !important;
+  color: #ffffff;
+  font-family: 'Roboto Slab', serif;
+  /* border: none; */
+}
 .container > .row > .col > .pilihan-game > img {
   background: white;
   border: none;
   /* width: px; */
+}
+
+.container > .row > .col > .pilihan-game > path {
+  border: none;
+}
+.container > .row > .col > .pilihan-game > svg {
+  border: none;
 }
 
 .container > .row > .col > .pilihan-game > .card-body > a {
@@ -153,6 +179,7 @@ body {
   text-align: center;
   color: #000000;
   text-decoration: none !important;
+  border: none;
 }
 
 .container > .row > .col > .card > .name > h3 {
@@ -168,10 +195,12 @@ body {
 }
 .container > .row > .col > .card:hover {
   /* border: 0.2rem; */
-  border-style: solid;
+  /* border-style: solid; */
+
   /* box-shadow: rgba(0, 0, 0, 1) -4px 4px; */
   box-shadow: none;
   transform: translate(-7px, 7px);
+  border: none;
 }
 
 .container > .row > .col > .jenis > .jenis-game > img {
