@@ -8,10 +8,11 @@ fetch('data.json')
   .then((data) => {
     let harga = '';
     data.forEach((item) => {
-      harga += `<div class="col-md-4 my-3 coll-harga">
+      harga += `<div class="col-md-1 col-sm-3 coll-harga">
         <div class="card harga-content">
           <div class="card-body">
-            <h5 class="card-title">${item.jumlah} Diamond</h5>
+          <img class="miya" src="${item.pict}" alt="..." />
+            <h5 class="jumlah">${item.jumlah} Diamond</h5>
             <h6 class="card-subtitle mb-2 text-dark"><strike>${item.diskon}</strike></h6>
             <p class="card-text">${item.harga}</p>
             <button type="button" class="btn btn-dark tombol modal-button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-idPesanan="${item.jumlah}">Pesan</button>
