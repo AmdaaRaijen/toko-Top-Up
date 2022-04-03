@@ -34,7 +34,7 @@ function returnId(id) {
 
 function getPesanan(id) {
   return `<div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Silahkan kirim bukti pembayaran dan chat penjual</h5>
+              <h5 class="modal-title" id="exampleModalLabel" style="color: red;">Silahkan kirim bukti pembayaran dan chat penjual!</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
@@ -42,6 +42,7 @@ function getPesanan(id) {
               <p>ID: ${userId}</p>
               <p>ID server: ${idServer}</p>
               <p>NICK NAME: ${nickname}</p>
+              <p style="color: red; font-size: 14px;">Pesan di atas bisa diubah menjadi metode pembayaran / QR code</p>
           </div>
           <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="return checkIdentityIsNotEmpty()">Close</button>
@@ -55,7 +56,7 @@ document.addEventListener('click', async function (e) {
     const modalBody = document.querySelector('.pesanan');
     modalBody.innerHTML = modalContent;
 
-    const encode = `Pesan Diamond: ${jumlahPesanan}\nID: ${userId}\nID server: ${idServer}\nNICKNAME: ${nickname}`;
+    const encode = `Pesan Diamond ML: ${jumlahPesanan}\nID: ${userId}\nID server: ${idServer}\nNICKNAME: ${nickname}`;
 
     const Chat = document.querySelector('.modal-footer');
     const chatText = `<a href="https://wa.me/6285156189563?text=${encodeURIComponent(encode.trim())}"><button type="button" class="btn btn-success" onclick="return checkIdentityIsNotEmpty()">Chat Penjual</button></a>`;

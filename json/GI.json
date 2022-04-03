@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "pict": "asset/cystal.png",
+    "jumlah": "60",
+    "Harga": "Rp. 15.000"
+  },
+  {
+    "id": "2",
+    "pict": "asset/cystal.png",
+    "jumlah": "330",
+    "Harga": "Rp. 77.000"
+  },
+  {
+    "id": "3",
+    "pict": "asset/cystal.png",
+    "jumlah": "1090",
+    "Harga": "Rp. 237.000"
+  },
+  {
+    "id": "4",
+    "pict": "asset/cystal.png",
+    "jumlah": "2240",
+    "Harga": "Rp. 447.000"
+  },
+  {
+    "id": "5",
+    "pict": "asset/cystal.png",
+    "jumlah": "3880",
+    "Harga": "Rp. 705.000"
+  }
+]

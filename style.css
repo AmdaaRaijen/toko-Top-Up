@@ -134,7 +134,7 @@ body {
   /* font-size: 1rem; */
   font-weight: bold;
   background-color: #23272b;
-  box-shadow: rgba(0, 0, 0, 1) -8px 8px;
+  box-shadow: rgba(0, 0, 0, 0.8) -10px 10px;
   transition: 150ms ease-out;
 }
 
@@ -320,7 +320,7 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
   background-color: #ffd500;
-  box-shadow: rgba(0, 0, 0, 1) -8px 8px;
+  box-shadow: rgba(0, 0, 0, 0.4) -8px 8px;
   transition: 150ms ease-out;
 }
 .container > .list-harga > .col-md-1.col-sm-3.coll-harga > .card.harga-content > .card-body > h5 {
