@@ -114,12 +114,12 @@ body {
   color: #000000;
 }
 
-.container > .row > .col > .pilihan-game {
+.container > .row > .col > a > .pilihan-game {
   font-family: 'PT Serif', serif;
   display: block;
   position: relative;
   border-radius: 0.2rem;
-  border: 0.1rem;
+  /* border: 0.1rem; */
   top: 10rem;
   margin-top: 10px !important;
   margin-bottom: 10px !important;
@@ -138,39 +138,38 @@ body {
   transition: 150ms ease-out;
 }
 
-.container > .row > .col > .pilihan-game :active {
-  /* color: black; */
-  border: 0.1rem;
-  border-style: solid !important;
-  /* box-shadow: rgba(0, 0, 0, 1) -4px 4px; */
+.container > .row > .col > a > .pilihan-game:active {
   box-shadow: none;
-  transform: translate(-7px, 7px) !important;
+  transform: translate(-8px, 8px) !important;
 }
 
-.container > .row > .col > .pilihan-game > .card-body {
+.container > .row > .col > a > .pilihan-game > .card-body {
   border: none;
 }
 
-.container > .row > .col > .pilihan-game > .card-body > h2 {
+.container > .row > .col > a {
+  text-decoration: none;
+}
+.container > .row > .col > a > .pilihan-game > .card-body > h2 {
   font-size: 26px !important;
   color: #ffffff;
   font-family: 'Roboto Slab', serif;
   /* border: none; */
 }
-.container > .row > .col > .pilihan-game > img {
+.container > .row > .col > a > .pilihan-game > img {
   background: white;
   border: none;
   /* width: px; */
 }
 
-.container > .row > .col > .pilihan-game > path {
+.container > .row > .col > a > .pilihan-game > path {
   border: none;
 }
-.container > .row > .col > .pilihan-game > svg {
+.container > .row > .col > a > .pilihan-game > svg {
   border: none;
 }
 
-.container > .row > .col > .pilihan-game > .card-body > a {
+.container > .row > .col > a > .pilihan-game > .card-body > a {
   /* border: #000000; */
   /* border-style: solid; */
   font-family: 'PT Serif', serif;
@@ -193,15 +192,15 @@ body {
 .container > .row > .col > .card > h3 {
   position: absolute;
 }
-.container > .row > .col > .card:hover {
-  /* border: 0.2rem; */
-  /* border-style: solid; */
+/* .container > .row > .col > .card:hover { */
+/* border: 0.2rem; */
+/* border-style: solid; */
 
-  /* box-shadow: rgba(0, 0, 0, 1) -4px 4px; */
-  box-shadow: none;
+/* box-shadow: rgba(0, 0, 0, 1) -4px 4px; */
+/* box-shadow: none;
   transform: translate(-7px, 7px);
   border: none;
-}
+} */
 
 .container > .row > .col > .jenis > .jenis-game > img {
   width: 100px;
