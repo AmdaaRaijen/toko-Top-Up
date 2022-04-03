@@ -1,0 +1,17 @@
+[
+  {
+    "nama": "Mobile Legends",
+    "pict": "asset/ML.png",
+    "link": "detail.html"
+  },
+  {
+    "nama": "Free Fire",
+    "pict": "asset/FF.png",
+    "link": "FF.html"
+  },
+  {
+    "nama": "Genshin Impact",
+    "pict": "asset/GI.png",
+    "link": "GI.html"
+  }
+]
