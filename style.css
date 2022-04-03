@@ -114,7 +114,7 @@ body {
   color: #000000;
 }
 
-.container > .row > .col > a > .pilihan-game {
+.container > .row > .col > .pilihan-game {
   font-family: 'PT Serif', serif;
   display: block;
   position: relative;
@@ -138,38 +138,44 @@ body {
   transition: 150ms ease-out;
 }
 
-.container > .row > .col > a > .pilihan-game:active {
+.container > .row > .col > .pilihan-game:active {
   box-shadow: none;
   transform: translate(-8px, 8px) !important;
 }
 
-.container > .row > .col > a > .pilihan-game > .card-body {
+.container > .row > .col > .pilihan-game > .card-body {
   border: none;
 }
 
 .container > .row > .col > a {
   text-decoration: none;
 }
-.container > .row > .col > a > .pilihan-game > .card-body > h2 {
+
+.container > .row > .col > .pilihan-game > a {
+  text-decoration: none;
+}
+
+.container > .row > .col > .pilihan-game > a > .card-body > h2 {
   font-size: 26px !important;
   color: #ffffff;
+  text-decoration: none;
   font-family: 'Roboto Slab', serif;
   /* border: none; */
 }
-.container > .row > .col > a > .pilihan-game > img {
+.container > .row > .col > .pilihan-game > img {
   background: white;
   border: none;
   /* width: px; */
 }
 
-.container > .row > .col > a > .pilihan-game > path {
+.container > .row > .col > .pilihan-game > path {
   border: none;
 }
-.container > .row > .col > a > .pilihan-game > svg {
+.container > .row > .col > .pilihan-game > svg {
   border: none;
 }
 
-.container > .row > .col > a > .pilihan-game > .card-body > a {
+.container > .row > .col > .pilihan-game > .card-body > a {
   /* border: #000000; */
   /* border-style: solid; */
   font-family: 'PT Serif', serif;
