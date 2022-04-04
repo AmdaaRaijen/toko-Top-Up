@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "pict": "asset/vp.png",
+    "jumlah": "420",
+    "harga": "Rp. 50.000"
+  },
+  {
+    "id": "2",
+    "pict": "asset/vp.png",
+    "jumlah": "700",
+    "harga": "Rp. 80.000"
+  },
+  {
+    "id": "3",
+    "pict": "asset/vp.png",
+    "jumlah": "1375",
+    "harga": "Rp. 150.000"
+  },
+  {
+    "id": "4",
+    "pict": "asset/vp.png",
+    "jumlah": "2400",
+    "harga": "Rp. 250.000"
+  }
+]
