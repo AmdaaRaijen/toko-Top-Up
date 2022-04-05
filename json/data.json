@@ -10,85 +10,91 @@
     "id": "2",
     "pict": "asset/100DM.png",
     "jumlah": "129 Diamond",
-    "harga": "Rp.32.000",
-    "diskon": "Rp.33.000"
+    "harga": "Rp.33.000",
+    "diskon": "Rp.35.000"
   },
   {
     "id": "3",
     "pict": "asset/100DM.png",
     "jumlah": "194 Diamond",
-    "harga": "Rp.46.000",
-    "diskon": "Rp.48.000"
+    "harga": "Rp.48.000",
+    "diskon": "Rp.50.000"
   },
   {
     "id": "4",
-
     "jumlah": "259 Diamond",
     "pict": "asset/100DM.png",
-    "harga": "Rp.62.000",
-    "diskon": "Rp.64.000"
+    "harga": "Rp.63.000",
+    "diskon": "Rp.65.000"
   },
   {
     "id": "5",
     "pict": "asset/300DM.png",
     "jumlah": "323 Diamond",
-    "harga": "Rp.77.000",
+    "harga": "Rp.78.000",
     "diskon": "Rp.80.000"
   },
   {
     "id": "6",
-    "jumlah": "453 Diamond",
     "pict": "asset/300DM.png",
-    "harga": "Rp.105.000",
-    "diskon": "Rp.107.000"
+    "jumlah": "388 Diamond",
+    "harga": "Rp.95.000",
+    "diskon": "Rp.100.000"
   },
   {
     "id": "7",
+    "jumlah": "453 Diamond",
+    "pict": "asset/300DM.png",
+    "harga": "Rp.110.000",
+    "diskon": "Rp.115.000"
+  },
+  {
+    "id": "8",
     "jumlah": "530 Diamond",
     "pict": "asset/500DM.png",
-    "harga": "Rp.122.000",
+    "harga": "Rp.124.000",
     "diskon": "Rp.129.000"
   },
   {
     "id": "9",
     "pict": "asset/500DM.png",
     "jumlah": "659 Diamond",
-    "harga": "Rp.150.000",
-    "diskon": "Rp.155.000"
+    "harga": "Rp.155.000",
+    "diskon": "Rp.160.000"
   },
   {
     "id": "10",
     "jumlah": "724 Diamond",
     "pict": "asset/500DM.png",
-    "harga": "Rp.168.000",
+    "harga": "Rp.172.000",
     "diskon": "Rp.175.000"
   },
   {
     "id": "11",
     "jumlah": "853 Diamond",
     "pict": "asset/500DM.png",
-    "harga": "Rp.197.000",
-    "diskon": "Rp.202.000"
+    "harga": "Rp.205.000",
+    "diskon": "Rp.210.000"
   },
   {
     "id": "12",
     "jumlah": "1060 Diamond",
     "pict": "asset/1000DM.png",
-    "harga": "Rp.245.000",
+    "harga": "Rp.250.000",
     "diskon": "Rp.255.000"
   },
   {
     "id": "13",
     "jumlah": "1647 Diamond",
     "pict": "asset/1000DM.png",
-    "harga": "Rp.365.000",
+    "harga": "Rp.372.000",
     "diskon": "Rp.390.000"
   },
   {
     "id": "14",
     "jumlah": "2767 Diamond",
     "pict": "asset/1000DM.png",
-    "harga": "Rp.600.000",
+    "harga": "Rp.610.000",
     "diskon": "Rp.640.000"
   }
 ]

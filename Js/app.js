@@ -35,7 +35,7 @@ function returnId(id) {
 
 function getPesanan(id) {
   return `<div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel" style="color: red;">Silahkan kirim bukti pembayaran dan chat penjual!</h5>
+              <h5 class="modal-title" id="exampleModalLabel" style="color: red;">Proses Cepat dan Aman!</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
@@ -44,7 +44,6 @@ function getPesanan(id) {
               <p>ID server: ${idServer}</p>
               <p>NICK NAME: ${nickname}</p>
               <p>METODE PEMBAYARAN: ${buying_method}</p>
-              <p style="color: red; font-size: 14px;">Pesan di atas bisa diubah menjadi metode pembayaran / QR code</p>
           </div>
           <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="return checkIdentityIsNotEmpty()">Close</button>
