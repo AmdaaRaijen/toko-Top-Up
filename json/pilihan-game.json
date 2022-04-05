@@ -1,17 +1,17 @@
 [
   {
     "nama": "Mobile Legends",
-    "pict": "asset/ML.png",
+    "pict": "asset/ML1.png",
     "link": "detail.html"
   },
   {
     "nama": "Valorant",
-    "pict": "asset/Valo.png",
+    "pict": "asset/Valo1.png",
     "link": "Valo.html"
   },
   {
     "nama": "Genshin Impact",
-    "pict": "asset/GI.png",
+    "pict": "asset/GI1.png",
     "link": "GI.html"
   }
 ]

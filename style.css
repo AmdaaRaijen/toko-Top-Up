@@ -23,16 +23,19 @@ body {
   transition: 100ms ease-in;
 }
 
-.container-fluid > .d-flex > button {
-  text-align: center;
+.container-fluid > .d-flex > .form-select {
   position: relative;
-  font-family: 'Roboto Condensed', sans-serif;
-  width: 5rem;
+  top: 10rem;
+  /* margin-top: 10px; */
+  /* margin-bottom: 20px; */
+  left: -18rem;
+  text-align: center;
+  width: 13.5rem;
   border: 0.1rem;
   border-style: solid;
-  background-color: #0037ff;
+  background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 1) -7px 7px;
-  color: black;
+  font-family: 'Roboto Condensed', sans-serif;
   transition: 100ms ease-in;
 }
 
@@ -125,7 +128,7 @@ body {
   margin-bottom: 10px !important;
   /* left: 5  rem; */
   border-style: solid;
-  background-color: #000000;
+  /* background-color: #000000; */
   /* width: 5rem; */
   height: 17rem;
   margin-left: auto;
@@ -134,7 +137,7 @@ body {
   /* font-size: 1rem; */
   font-weight: bold;
   background-color: #23272b;
-  box-shadow: rgba(0, 0, 0, 0.8) -10px 10px;
+  /* box-shadow: rgba(0, 0, 0, 0.8) -10px 10px; */
   transition: 150ms ease-out;
 }
 
@@ -246,7 +249,7 @@ body {
   /* text-decoration: none; */
   border-style: solid;
   background-color: rgb(0, 255, 81);
-  box-shadow: rgba(0, 0, 0, 1) -7px 7px;
+  /* box-shadow: rgba(0, 0, 0, 1) -7px 7px; */
   /* width: 1rem; */
   /* height: 2rem; */
   transition: 150ms ease-in;
@@ -302,12 +305,13 @@ body {
 .container > .list-harga > .col-md-1.col-sm-3.coll-harga {
   /* margin: 5rem !important; */
   /* font-family: 'Raleway', sans-serif; */
+
   font-family: 'Roboto Condensed', sans-serif;
   display: block;
   position: relative;
   border-radius: 0.5rem;
   border: 0.1rem;
-  top: 10rem;
+  top: 12rem;
   margin-top: 10px !important;
   margin-bottom: 10px !important;
   /* left: 5  rem; */
@@ -320,12 +324,12 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
   background-color: #ffd500;
-  box-shadow: rgba(0, 0, 0, 0.4) -8px 8px;
+  /* box-shadow: rgba(0, 0, 0, 0.4) -8px 8px; */
   transition: 150ms ease-out;
 }
 .container > .list-harga > .col-md-1.col-sm-3.coll-harga > .card.harga-content > .card-body > h5 {
   color: #ffffff !important;
-  background-color: #280031;
+  background-color: #23272b;
   border-radius: 0.2rem;
   /* outline: 2px solid rgb(0, 0, 0); */
 }

@@ -1,3 +1,8 @@
+let harga = '';
+let userId = '';
+let idServer = '';
+let nickname = '';
+
 fetch('json/Valo.json')
   .then((res) => res.json())
   .then((data) => {
@@ -6,8 +11,8 @@ fetch('json/Valo.json')
       harga += `<div class="col-md-1 col-sm-3 coll-harga">
         <div class="card harga-content">
           <div class="card-body">
-          <img class="miya" src="${item.pict}" style="margin-top:20px;" alt="..." />
-            <h5 class="jumlah" style="margin-top:10px;">${item.jumlah} Diamond</h5>
+          <img class="miya" src="${item.pict}" style="margin-top:10px;" alt="..." />
+            <h5 class="jumlah" style="margin-top:10px;">${item.jumlah} VP</h5>
             <p class="card-text">${item.harga}</p>
             <button type="button" class="btn btn-dark tombol modal-button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-idPesanan="${item.jumlah}">Pesan</button>
           </div>
@@ -17,3 +22,36 @@ fetch('json/Valo.json')
     const hargaContainer = document.querySelector('.list-harga');
     hargaContainer.innerHTML = harga;
   });
+
+function getPesanan(id) {
+  return `<div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel" style="color: red;">Silahkan kirim bukti pembayaran dan chat penjual!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Pesan Diamond: ${id}</p>
+                <p>ID: ${userId}</p>
+                <p>ID server: ${idServer}</p>
+                <p>NICK NAME: ${nickname}</p>
+                <p style="color: red; font-size: 14px;">Pesan di atas bisa diubah menjadi metode pembayaran / QR code</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="return checkIdentityIsNotEmpty()">Close</button>
+            </div>`;
+}
+
+document.addEventListener('click', async function (e) {
+  if (e.target.classList.contains('modal-button')) {
+    const jumlahPesanan = e.target.dataset.idpesanan;
+    const modalContent = getPesanan(jumlahPesanan);
+    const modalBody = document.querySelector('.pesanan');
+    modalBody.innerHTML = modalContent;
+
+    const encode = `Pesan Genesis Crystal : ${jumlahPesanan}\nId Server: ${idServer}\nUID: ${UID}`;
+
+    const Chat = document.querySelector('.modal-footer');
+    const chatText = `<a href="https://wa.me/6285156189563?text=${encodeURIComponent(encode.trim())}"><button type="button" class="btn btn-success" onclick="return checkIdentityIsNotEmpty()">Chat Penjual</button></a>`;
+
+    Chat.innerHTML = chatText;
+  }
+});
