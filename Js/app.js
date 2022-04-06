@@ -4,7 +4,7 @@ let idServer = '';
 let nickname = '';
 let buying_method = '';
 
-fetch('json/data.json')
+fetch('json/ML.json')
   .then((res) => res.json())
   .then((data) => {
     let harga = '';
@@ -26,7 +26,7 @@ fetch('json/data.json')
   });
 
 function returnId(id) {
-  return fetch('data.json')
+  return fetch('ML.json')
     .then((res) => res.json())
     .then((data) => {
       return data.id;
@@ -104,7 +104,7 @@ fetch('json/pilihan-game.json')
       pilihan += `<div class="col col-pilihan">
       <div class="card pilihan-game" style="width: 12rem">
         <img src="${item.pict}" class="card-img-top" alt="...">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="border: none;"><path style="border: none;" fill="#ffffff" fill-opacity="1" d="M0,96L16,85.3C32,75,64,53,96,90.7C128,128,160,224,192,234.7C224,245,256,171,288,144C320,117,352,139,384,144C416,149,448,139,480,122.7C512,107,544,85,576,90.7C608,96,640,128,672,144C704,160,736,160,768,144C800,128,832,96,864,85.3C896,75,928,85,960,128C992,171,1024,245,1056,282.7C1088,320,1120,320,1152,282.7C1184,245,1216,171,1248,133.3C1280,96,1312,96,1344,106.7C1376,117,1408,139,1424,149.3L1440,160L1440,0L1424,0C1408,0,1376,0,1344,0C1312,0,1280,0,1248,0C1216,0,1184,0,1152,0C1120,0,1088,0,1056,0C1024,0,992,0,960,0C928,0,896,0,864,0C832,0,800,0,768,0C736,0,704,0,672,0C640,0,608,0,576,0C544,0,512,0,480,0C448,0,416,0,384,0C352,0,320,0,288,0C256,0,224,0,192,0C160,0,128,0,96,0C64,0,32,0,16,0L0,0Z"></path></svg>
+        ${item.wave}
         <a href="${item.link}">
           <div class="card-body">
             <h2>${item.nama}</h2>

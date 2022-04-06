@@ -1,6 +1,7 @@
 let harga = '';
 let idServer = '';
 let UID = '';
+let buying_method = '';
 
 fetch('json/GI.json')
   .then((res) => res.json())
@@ -31,7 +32,9 @@ function getPesanan(id) {
       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
   </div>
   <div class="modal-body">
-      <h2>KALIMAT INI BISA DIUBAH MENJADI QR CODE / METODE PEMBAYARAN</h2>
+      <p>ID Server : ${idServer}</p>
+      <p>UID : ${UID}</strong></p>
+      <p>Metode Pembayaran : ${buying_method} </p>
   </div>
   <div class="modal-footer">
       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="return checkIdentityIsNotEmpty()">Close</button>
@@ -66,7 +69,7 @@ document.addEventListener('click', async function (e) {
     const modalBody = document.querySelector('.pesanan');
     modalBody.innerHTML = modalContent;
 
-    const encode = `Pesan Genesis Crystal : ${jumlahPesanan}\nId Server: ${idServer}\nUID: ${UID}`;
+    const encode = `Pesan Genesis Crystal : ${jumlahPesanan}\nId Server: ${idServer}\nUID: ${UID}\nMetode Pembayaran: ${buying_method}`;
 
     const Chat = document.querySelector('.modal-footer');
     const chatText = `<a href="https://wa.me/6285156189563?text=${encodeURIComponent(encode.trim())}"><button type="button" class="btn btn-success" onclick="return checkIdentityIsNotEmpty()">Chat Penjual</button></a>`;
@@ -81,3 +84,9 @@ function checkIdentityIsNotEmpty() {
     return false;
   }
 }
+
+const buying_method_select = document.getElementById('buying_method');
+
+buying_method_select.addEventListener('change', (e) => {
+  buying_method = e.target.value;
+});
